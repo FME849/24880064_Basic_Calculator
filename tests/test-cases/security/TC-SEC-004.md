@@ -8,7 +8,7 @@ Security / Security Testing / Fuzzing
 
 ## Preconditions
 - User đang ở trang Basic Calculator
-- Build được chọn là "Prototype"
+- Lần lượt chọn từng Build để test: Prototype, 1, 2, 3, 4, 5, 6, 7, 8, 9
 
 ## Test data
 | Field | Value |
