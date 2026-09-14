@@ -8,7 +8,7 @@ Clear / Functional / Equivalence Partitioning
 
 ## Preconditions
 - User đang ở trang Basic Calculator
-- Lần lượt chọn từng Build để test: Prototype, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- Lần lượt chọn từng Build để test: 1, 2, 3, 4, 5, 6, 7, 8, 9
 - Đã thực hiện phép tính gây lỗi (ví dụ: chia cho 0)
 
 ## Test data
