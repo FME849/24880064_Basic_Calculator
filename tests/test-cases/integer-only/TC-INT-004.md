@@ -1,0 +1,32 @@
+# TC-INT-004: Tick Integers only với kết quả âm thập phân
+
+## Requirement ID
+FR-CALC-006
+
+## Module / Test type / Technique
+Integer Only / Functional / Equivalence Partitioning
+
+## Preconditions
+- User đang ở trang Basic Calculator
+- Build được chọn là "Prototype"
+
+## Test data
+| Field | Value |
+|-------|-------|
+| First number | -10 |
+| Second number | 3 |
+| Operation | Divide |
+| Integers only | Checked |
+
+## Test steps
+1. Nhập "-10" vào ô First number
+2. Nhập "3" vào ô Second number
+3. Chọn Operation là "Divide"
+4. Bấm nút "Calculate"
+5. Tick checkbox "Integers only"
+
+## Expected result
+Ô Answer hiển thị kết quả là "-3" (parseInt làm tròn về 0 từ -3.333...).
+
+## Status / Related bugs
+Not Run / None

@@ -1,0 +1,30 @@
+# TC-MUL-004: Nhân số dương với số âm
+
+## Requirement ID
+FR-CALC-003
+
+## Module / Test type / Technique
+Multiplication / Functional / Equivalence Partitioning
+
+## Preconditions
+- User đang ở trang Basic Calculator
+- Build được chọn là "Prototype"
+
+## Test data
+| Field | Value |
+|-------|-------|
+| First number | 6 |
+| Second number | -2 |
+| Operation | Multiply |
+
+## Test steps
+1. Nhập "6" vào ô First number
+2. Nhập "-2" vào ô Second number
+3. Chọn Operation là "Multiply"
+4. Bấm nút "Calculate"
+
+## Expected result
+Ô Answer hiển thị kết quả là "-12".
+
+## Status / Related bugs
+Not Run / None
