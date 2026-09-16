@@ -33,7 +33,7 @@ export class CalculatorPage {
 
   /** Navigate to the Basic Calculator page */
   async goto() {
-    await this.page.goto('/');
+    await this.page.goto('https://testsheepnz.github.io/BasicCalculator.html');
   }
 
   /** Select a build version from the Build dropdown */
